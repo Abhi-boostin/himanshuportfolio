@@ -25,7 +25,7 @@ const techStacks = [
   },
   {
     name: "Celery",
-    icon: "https://www.vectorlogo.zone/logos/celeryproject/celeryproject-icon.svg",
+    icon: "https://docs.celeryq.dev/en/latest/_static/celery_512.png",
   },
   {
     name: "Redis",
@@ -93,7 +93,7 @@ const techStacks = [
   },
   {
     name: "AWS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg",
   },
 ];
 

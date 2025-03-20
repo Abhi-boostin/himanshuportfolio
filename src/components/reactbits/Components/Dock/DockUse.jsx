@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import Dock from './Dock';
-import { FaLinkedin, FaGithub, FaPhone, FaXTwitter } from 'react-icons/fa6';
+import { FaLinkedin, FaGithub, FaPhone, FaXTwitter, FaEnvelope } from 'react-icons/fa6';
 
 export function DockUse() {
   const items = [
@@ -16,9 +16,9 @@ export function DockUse() {
       onClick: () => window.open('https://github.com/himanshu-sharmav', '_blank') 
     },
     { 
-      icon: <FaPhone size={24} />, 
-      label: 'Call', 
-      onClick: () => window.location.href = 'tel:+918738059086'
+      icon: <FaEnvelope size={24} />, 
+      label: 'Email', 
+      onClick: () => window.location.href = 'mailto:himanshusharma.dev80@gmail.com'
     },
     { 
       icon: <FaXTwitter size={24} />, 
