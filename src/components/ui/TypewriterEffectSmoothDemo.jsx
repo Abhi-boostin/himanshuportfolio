@@ -13,17 +13,23 @@ export function TypewriterEffectSmoothDemo() {
     },
   ];
   return (
-    <div className="bg-transparent flex items-center justify-center h-[40vh] mt-20"> {/* Added mt-20 for top margin */}
-      <div className="flex flex-col items-center justify-center space-y-6"> {/* Increased space-y-4 to space-y-6 */} {/* Increased space-y-4 to space-y-6 */}
+    <div className="bg-transparent flex items-center justify-center h-[40vh] mt-20">
+      <div className="flex flex-col items-center justify-center space-y-6">
         <p className="text-neutral-200 dark:text-neutral-200 text-xs sm:text-base">
           Full Stack Developer. | Based in India.
         </p>
         <TypewriterEffectSmooth words={words} />
-        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 mt-6"> {/* Increased mt-4 to mt-6 */} {/* Increased mt-4 to mt-6 */}
-          <button className="w-40 h-10 rounded-xl bg-black border dark:border-white border-transparent text-white text-sm">
+        <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 mt-6">
+          <button 
+            onClick={() => window.open('https://drive.google.com/file/d/1Eq0RyjxtpwLN1YCchteHxMJroeQ88Wo9/view?usp=drivesdk', '_blank')}
+            className="w-40 h-10 rounded-xl bg-black border-white border text-white text-sm"
+          >
             MY RESUME
           </button>
-          <button className="w-40 h-10 rounded-xl bg-white text-black border border-black text-sm">
+          <button 
+            onClick={() => window.open('https://github.com/himanshu-sharmav', '_blank')}
+            className="w-40 h-10 rounded-xl bg-white text-black border border-black text-sm"
+          >
             GITHUB
           </button>
         </div>
