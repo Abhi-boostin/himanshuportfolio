@@ -53,9 +53,9 @@ export const MacbookScroll = ({
   const textOpacity = useTransform(scrollYProgress, [0, 0.2], [1, 0]);
 
   return (
-    (<div
+    <div
       ref={ref}
-      className="flex min-h-[200vh] shrink-0 scale-[0.35] transform flex-col items-center justify-start py-0 [perspective:800px] sm:scale-50 md:scale-100 md:py-80">
+      className="flex min-h-[150vh] shrink-0 transform flex-col items-center justify-start py-0 [perspective:800px]">
       <motion.h2
         style={{
           translateY: textTransform,
@@ -102,7 +102,7 @@ export const MacbookScroll = ({
         )}
         {badge && <div className="absolute bottom-4 left-4">{badge}</div>}
       </div>
-    </div>)
+    </div>
   );
 };
 
