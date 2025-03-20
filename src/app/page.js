@@ -1,19 +1,18 @@
 import React from 'react'
 import { MacbookScrollDemo } from '@/components/ui/MacbookScrollDemo'
 import { TimelineDemo } from '@/components/ui/TimelineDemo'
-import { TypewriterEffectSmoothDemo } from '@/components/ui/TypewriterEffectSmoothDemo'
-import { NavbarDemo } from '@/components/ui/NavbarDemo'
+import { TypewriterEffectSmoothDemo } from '@/components/ui/TypewriterEffectSmoothDemo'   
 import { TechStack } from "@/components/ui/techstack";
 import { ExpandableCardDemo } from '@/components/ui/ExpandableCardDemo'
+import {DockUse} from '@/components/reactbits/Components/Dock/DockUse'
 
 export default function page() {
   return (
     <div className="relative min-h-screen w-full bg-black">
-      <NavbarDemo />
       
       <div className="fixed inset-0 z-0 bg-black">
       </div>
-      <div className="relative z-10 bg-transparent">
+      <div className="relative z-10 bg-transparent pb-24"> {/* Added pb-24 for dock space */}
         <TypewriterEffectSmoothDemo />
         <MacbookScrollDemo />
         <TimelineDemo />
@@ -28,6 +27,7 @@ export default function page() {
         </div>
         <ExpandableCardDemo />
       </div>
+      <DockUse />
     </div>
   )
 }
