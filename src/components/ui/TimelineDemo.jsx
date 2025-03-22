@@ -7,118 +7,98 @@ export function TimelineDemo() {
     {
       title: "2024 - Digital Alpha",
       content: (
-        <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Full-Stack Engineer Intern (Jan 2024 – Present)
-          </p>
-          <ul className="list-disc ml-5 mb-8 text-xs md:text-sm text-neutral-800 dark:text-neutral-200">
-            <li>
-              Enhanced the EpiphAI chatbot by adding 10+ features using Django and React.js.
-            </li>
-            <li>
-              Improved UI/UX, leading to a 20% increase in user engagement.
-            </li>
-            <li>
-              Optimized application performance by debugging and refining code for scalable solutions.
-            </li>
-            <li>
-              Contributed actively in Agile sprints to accelerate feature rollouts.
-            </li>
-          </ul>
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="https://picsum.photos/seed/digitalalpha/500/500"
-              alt="Digital Alpha Workplace"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
-            />
-            <Image
-              src="https://picsum.photos/seed/office1/500/500"
-              alt="Office Environment"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
-            />
-          </div>
+      <div>
+        <p className="text-neutral-900 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4 ">
+          Full-Stack Engineer Intern • Jan 2024 - Present
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm mb-8">
+          At Digital Alpha, I'm leading the enhancement of the EpiphAI chatbot platform using Django and React.js. 
+          Through the implementation of 10+ innovative features, we've achieved a remarkable 20% increase in user engagement. 
+          My role involves optimizing application performance, ensuring scalability, and delivering efficient solutions. 
+          Working within Agile sprints, I contribute to rapid feature deployments while maintaining code quality.
+        </p>
+        <div className="grid grid-cols-2 gap-4">
+          <Image
+            src="/digital-alpha image1.png"
+            alt="Digital Alpha Workplace"
+            width={500}
+            height={500}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+          />
+          <Image
+            src="/digital-alpha image2.png"
+            alt="Digital Alpha Office"
+            width={500}
+            height={500}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+          />
         </div>
+      </div>
       ),
     },
     {
       title: "2023 - Alemeno",
       content: (
-        <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Backend Engineer Intern (Nov 2023 – Dec 2023)
-          </p>
-          <ul className="list-disc ml-5 mb-8 text-xs md:text-sm text-neutral-800 dark:text-neutral-200">
-            <li>
-              Developed and maintained a Django-based web application handling over 10,000 daily requests.
-            </li>
-            <li>
-              Achieved a 95% bug resolution rate within 24 hours.
-            </li>
-            <li>
-              Implemented CI/CD pipelines, reducing deployment time by 30%.
-            </li>
-            <li>
-              Automated workflows that increased overall efficiency by 40%.
-            </li>
-          </ul>
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="https://picsum.photos/seed/alemeno/500/500"
-              alt="Alemeno Workplace"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
-            />
-            <Image
-              src="https://picsum.photos/seed/office2/500/500"
-              alt="Team Collaboration"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
-            />
-          </div>
+      <div>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+          Backend Engineer Intern • Nov 2023 - Dec 2023
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm mb-8">
+          During my time at Alemeno, I was responsible for developing and maintaining a robust Django-based web application 
+          that successfully handled over 10,000 daily requests. A key achievement was maintaining a 95% bug resolution rate 
+          within 24-hour timeframes. I significantly improved development workflows by implementing CI/CD pipelines, which 
+          reduced deployment time by 30% and enhanced overall team efficiency by 40%.
+        </p>
+        <div className="grid grid-cols-2 gap-4">
+          <Image
+            src="/alemeno image1.png"
+            alt="Alemeno Workplace"
+            width={500}
+            height={500}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+          />
+          <Image
+            src="/alemeno image2.png"
+            alt="Alemeno Office"
+            width={500}
+            height={500}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+          />
         </div>
+      </div>
       ),
     },
     {
       title: "2023 - Across The Globe",
       content: (
-        <div>
-          <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-            Backend Engineer Intern (June 2023 – Oct 2023)
-          </p>
-          <ul className="list-disc ml-5 mb-8 text-xs md:text-sm text-neutral-800 dark:text-neutral-200">
-            <li>
-              Designed and optimized RESTful and serverless APIs using AWS Lambda.
-            </li>
-            <li>
-              Improved third-party integrations by 40% and reduced infrastructure costs by 20%.
-            </li>
-            <li>
-              Collaborated in Agile teams to enhance feature rollout speed and improve code quality.
-            </li>
-          </ul>
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="https://picsum.photos/seed/atg/500/500"
-              alt="Across The Globe Workplace"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
-            />
-            <Image
-              src="https://picsum.photos/seed/office3/500/500"
-              alt="Modern Office"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
-            />
-          </div>
+      <div>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-4">
+          Backend Engineer Intern • June 2023 - Oct 2023
+        </p>
+        <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm mb-8">
+          My journey in tech began at Across The Globe, where I specialized in designing and optimizing RESTful and 
+          serverless APIs using AWS Lambda. I achieved significant improvements in system performance, enhancing 
+          third-party integrations by 40% while reducing infrastructure costs by 20%. Working in Agile teams, I 
+          contributed to improving code quality by 15% and accelerating feature rollouts through effective collaboration 
+          and implementation of best practices.
+        </p>
+        <div className="grid grid-cols-2 gap-4">
+          <Image
+            src="/atg image1.png"
+            alt="Across The Globe Workplace"
+            width={500}
+            height={500}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+          />
+          <Image
+            src="/atg image2.png"
+            alt="Modern Office"
+            width={500}
+            height={500}
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full"
+          />
         </div>
+      </div>
       ),
     },
   ];

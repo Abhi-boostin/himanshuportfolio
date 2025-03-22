@@ -56,7 +56,7 @@ export const MacbookScroll = ({
     <div className="px-4 md:px-8">
       <div
         ref={ref}
-        className="flex min-h-[150vh] shrink-0 transform flex-col items-center justify-start py-0 [perspective:800px]">
+        className="flex min-h-[120vh] sm:min-h-[150vh] shrink-0 transform flex-col items-center justify-start py-0 [perspective:800px]">
         <motion.h2
           style={{
             translateY: textTransform,
@@ -74,7 +74,7 @@ export const MacbookScroll = ({
           translate={translate} />
         {/* Base area */}
         <div
-          className="relative -z-10 h-[22rem] w-full md:w-[32rem] overflow-hidden rounded-2xl bg-gray-200 dark:bg-[#272729]">
+          className="relative -z-10 h-[20rem] sm:h-[22rem] w-full md:w-[32rem] overflow-hidden rounded-2xl bg-gray-200 dark:bg-[#272729]">
           {/* above keyboard bar */}
           <div className="relative h-10 w-full">
             <div className="absolute inset-x-0 mx-auto h-4 w-[80%] bg-[#050505]" />
@@ -112,14 +112,14 @@ export const Lid = ({
   src
 }) => {
   return (
-    (<div className="relative [perspective:800px]">
+    <div className="relative [perspective:800px]">
       <div
         style={{
           transform: "perspective(800px) rotateX(-25deg) translateZ(0px)",
           transformOrigin: "bottom",
           transformStyle: "preserve-3d",
         }}
-        className="relative h-[12rem] w-[32rem] rounded-2xl bg-[#010101] p-2">
+        className="relative h-[12rem] w-[32rem] sm:h-[14rem] rounded-2xl bg-[#010101] p-2">
         <div
           style={{
             boxShadow: "0px 2px 0px 2px #171717 inset",
@@ -139,15 +139,17 @@ export const Lid = ({
           transformStyle: "preserve-3d",
           transformOrigin: "top",
         }}
-        className="absolute inset-0 h-96 w-[32rem] rounded-2xl bg-[#010101] p-2">
+        className="absolute inset-0 h-[24rem] sm:h-[28rem] w-[32rem] rounded-2xl bg-[#010101] p-2">
         <div className="absolute inset-0 rounded-lg bg-[#272729]" />
         <Image
           src={src}
           alt="aceternity logo"
           fill
-          className="absolute inset-0 h-full w-full rounded-lg object-cover object-left-top" />
+          className="absolute inset-0 h-full w-full rounded-lg object-cover"
+          style={{ objectFit: 'contain' }}
+        />
       </motion.div>
-    </div>)
+    </div>
   );
 };
 
@@ -441,7 +443,7 @@ export const Keypad = () => {
             <span className="block">fn</span>
           </div>
           <div className="flex w-full justify-start pl-1">
-            <IconWorld className="h-[6px] w-[6px]" />
+            <IconChevronUp className="h-[6px] w-[6px]" />
           </div>
         </KBtn>
         <KBtn className="" childrenClassName="h-full justify-between py-[4px]">
