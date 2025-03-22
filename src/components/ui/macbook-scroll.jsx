@@ -63,7 +63,7 @@ export const MacbookScroll = ({
             opacity: textOpacity,
           }}
           className="mb-20 text-center text-xl md:text-3xl font-bold text-neutral-800 dark:text-white">
-          
+           q  
         </motion.h2>
         {/* Lid */}
         <Lid
@@ -139,14 +139,13 @@ export const Lid = ({
           transformStyle: "preserve-3d",
           transformOrigin: "top",
         }}
-        className="absolute inset-0 h-[24rem] sm:h-[28rem] w-[32rem] rounded-2xl bg-[#010101] p-2">
-        <div className="absolute inset-0 rounded-lg bg-[#272729]" />
+        className="absolute inset-0 h-[24rem] sm:h-[28rem] w-[32rem] rounded-2xl bg-black p-2">
+        <div className="absolute inset-0 rounded-lg bg-black" />
         <Image
           src={src}
           alt="aceternity logo"
           fill
-          className="absolute inset-0 h-full w-full rounded-lg object-cover"
-          style={{ objectFit: 'contain' }}
+          className="absolute inset-0 h-full w-full rounded-lg object-contain bg-black"
         />
       </motion.div>
     </div>

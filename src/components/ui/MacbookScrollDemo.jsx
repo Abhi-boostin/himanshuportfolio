@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export function MacbookScrollDemo() {
   return (
-    <div className="overflow-hidden bg-transparent w-full px-2 sm:px-4 md:px-0">
+    <div className="overflow-hidden bg-transparent w-full">
       <div className="max-w-screen-lg mx-auto">
         <MacbookScroll
           className="scale-[0.25] sm:scale-[0.4] md:scale-[0.8] lg:scale-100 transform-gpu" 
@@ -13,7 +13,7 @@ export function MacbookScrollDemo() {
               <Badge className="h-10 w-10 transform -rotate-12" />
             </Link>
           }
-          src={`/himashumacwindow.png`}
+          src="/about me-himanshu.jpg"
           showGradient={false} 
         />
       </div>
